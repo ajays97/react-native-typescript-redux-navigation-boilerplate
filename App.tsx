@@ -26,7 +26,11 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-declare var global: {HermesInternal: null | {}};
+declare var global: { HermesInternal: null | {} };
+
+const test = {
+  name: 'ajay'
+};
 
 const App = () => {
   return (
