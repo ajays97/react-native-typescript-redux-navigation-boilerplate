@@ -28,10 +28,6 @@ import {
 
 declare var global: { HermesInternal: null | {} };
 
-const test = {
-  name: 'ajay'
-};
-
 const App = () => {
   return (
     <>
