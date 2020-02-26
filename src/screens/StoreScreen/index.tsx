@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { Props } from 'react';
 import { View, Text } from 'react-native';
+import { useTheme } from '@react-navigation/native';
 
-class StoreScreen extends React.Component {
-  render() {
-    return (
-      <View>
-        <Text>Store Screen</Text>
-      </View>
-    );
-  }
-}
+const StoreScreen = () => {
+  return (
+    <View>
+      <Text>Store Screen</Text>
+    </View>
+  );
+};
 
 export default StoreScreen;
