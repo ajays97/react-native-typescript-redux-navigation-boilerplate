@@ -1,13 +1,9 @@
-import React, { Props } from 'react';
-import { View, Text } from 'react-native';
-import { useTheme } from '@react-navigation/native';
+import React from 'react';
+
+import { StoreContainer } from '../../containers';
 
 const StoreScreen = () => {
-  return (
-    <View>
-      <Text>Store Screen</Text>
-    </View>
-  );
+  return <StoreContainer />;
 };
 
 export default StoreScreen;
